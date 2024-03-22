@@ -3,7 +3,7 @@
 import tkinter as tk
 
 def test_my_botton():
-    if(ent_username.get() == "username" and ent_password.get() == "pass"):
+    if(ent_username.get() == "Username" and ent_password.get() == "Password"):
         frame_auth.tkraise()
     else:
         fail_label = tk.Label(frame_login, text="Invalid combination")
